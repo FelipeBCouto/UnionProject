@@ -1,0 +1,30 @@
+.topoHome{
+    background-image: url(../img/fundotopo.jpg);
+    background-size:  cover;                      
+    background-repeat:   no-repeat;
+    background-position: center center;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+    z-index: -2;
+    position:relative;
+    background-attachment: fixed;
+}
+
+/*/////////////////////////////////////////////////topo//////////////////////////////////////////*/
+.topoHome h2{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #FFF;
+    line-height: 3.5rem;
+    margin: 1.5rem 0rem;
+    font-family: 'Lemonada', cursive;
+}
+.topoHome h2 mark{
+    color: #FFF;
+    background-color: rgba(82, 80, 80, 0.801);
+    padding: 0rem 1rem;
+}
+
